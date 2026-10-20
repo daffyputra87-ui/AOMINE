@@ -5,7 +5,7 @@ import PixelBlast from './PixelBlast';
 import GradientText from './GradientText';
 import ScrollVelocity from './ScrollVelocity';
 
-const MARQUEE = ['JavaScript', 'HTML', 'CSS', 'TailwindCSS', 'Python', 'Node.js', 'Figma'];
+const MARQUEE = ['JavaScript', 'HTML', 'CSS', 'Python', 'Figma'];
 
 export default function HeroSection() {
   const headingRef = useRef<HTMLHeadingElement>(null);

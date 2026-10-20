@@ -9,14 +9,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const SKILLS = [
   { name: 'JavaScript', level: 44, color: '#f7df1e' },
-  { name: 'TypeScript', level: 20, color: '#3178c6' },
   { name: 'HTML',      level: 85, color: '#e34f26' },
   { name: 'CSS',level: 34, color: '#38bdf8' },
-  { name: 'TailwindCSS',level: 34, color: '#38bdf8' },
   { name: 'Python',     level: 45, color: '#4b8bbe' },
 ];
 
-const TOOLS = ['VS Code','Git','GitHub','Figma','Vite','npm','Vercel','Netlify','Postman','ESLint'];
+const TOOLS = ['VS Code','Git','GitHub','Figma','Vite','npm','Vercel'];
 
 export default function SkillsSection() {
   const sectionRef = useRef<HTMLElement>(null);

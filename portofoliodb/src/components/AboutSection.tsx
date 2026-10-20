@@ -8,12 +8,12 @@ import GradientText from './GradientText';
 gsap.registerPlugin(ScrollTrigger);
 
 const INFO = [
-  { label: 'Nama',       value: 'Daffy Baghaskara', icon: '✨' },
-  { label: 'Umur',       value: '16 Tahun',    icon: '🎂' },
-  { label: 'Gender',     value: 'Male',        icon: '👤' },
-  { label: 'Pendidikan', value: 'SMKN 4 Malang',     icon: '🎓' },
-  { label: 'Status',     value: 'Pelajar',     icon: '📚' },
-  { label: 'Location',   value: 'Indonesia',   icon: '🌏' },
+  { label: 'Nama',       value: 'Daffy Baghaskara',   },
+  { label: 'Umur',       value: '16 Tahun',    },
+  { label: 'Gender',     value: 'Male',        },
+  { label: 'Pendidikan', value: 'SMKN 4 Malang',     },
+  { label: 'Status',     value: 'Pelajar',     },
+  { label: 'Location',   value: 'Indonesia',   },
 ];
 
 const USE_VIDEO = false;
@@ -168,7 +168,7 @@ export default function AboutSection() {
                   className="ic glass-card glass-card-hover rounded-2xl p-4 opacity-0"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-lg">{}</span>
                     <div>
                       <p className="text-xs font-mono mb-0.5" style={{ color: '#444' }}>{item.label}</p>
                       <p className="font-display font-semibold text-sm" style={{ color: '#ccc' }}>{item.value}</p>

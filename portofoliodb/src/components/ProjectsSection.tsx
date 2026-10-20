@@ -5,8 +5,8 @@ import GradientText from './GradientText';
 
 const PROJECTS = [
   { title: 'Portfolio Website',    desc: 'Website portfolio pribadi dengan animasi smooth dan pixel-perfect.', tags: ['React','TypeScript','Three.js','GSAP'], year: '2026', color: '#B19EEF', link: 'https://portofoliodev-lilac.vercel.app/#' },
-  { title: 'Website pembelian tiket Online',           desc: 'Website pembelian tiket online yang di buat di figma saat keperluan ujian', tags: ['Figma'], year: '2026', color: '#5227FF', link: 'https://www.figma.com/design/ZUf29nn6Vj8zEbSNKHWPHT/Untitled?node-id=0-1&t=D4bmvl13nj1cxJLB-1' },
-  { title: 'Persona 3 Portofolio',desc: 'Website portofolio pribadi yang bertema game/anime yang bernama PERSONA 3 dengan animasi loading smooth, dengan banyak asset.', tags: ['HTML','CSS','JavaScript'], year: '2026', color: '#38bdf8', link: 'https://p3rportofolio.vercel.app/' },
+  { title: 'Website pembelian tiket Online',           desc: 'Website pembelian tiket online yang di buat di figma saat keperluan ujian', tags: ['Figma'], year: '2026', color: '#5227FF', link: 'https://www.figma.com/design/ZUf29nn6Vj8zEbSNKHWPHT/Untitled?node-id=0-1&t=D4bmvl13nj1cxJLB-1/#' },
+  { title: 'Persona 3 Portofolio',desc: 'Website portofolio pribadi yang bertema game/anime yang bernama PERSONA 3 dengan animasi loading smooth, dengan banyak asset.', tags: ['HTML','CSS','JavaScript'], year: '2026', color: '#38bdf8', link: 'https://p3rportofolio.vercel.app/#' },
 ];
 
 export default function ProjectsSection() {
